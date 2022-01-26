@@ -1,3 +1,15 @@
+## Usage
+
+1. Update the mysql credential and database name in main.py
+2. For runing this code, you can run with 
+ ```
+ python3 -m uvicorn main:app --reload
+ ```
+
+ or 
+ ```
+ python3 main.py
+ ```
 
 ## DB
 
@@ -14,4 +26,4 @@ CREATE TABLE `movies` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
-~~~
+~~~~
